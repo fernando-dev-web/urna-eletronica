@@ -1,0 +1,14 @@
+.urna{
+    background-color: #dbd5c9;
+}
+
+.tela{
+    width: 500px;
+    height: 320px;
+    background: linear-gradient(to right, #e8e8e8, #c1c1c1)
+}
+.teclado{
+    background-color: #403a3a;
+    flex-direction: column;
+    align-items: center;
+}
