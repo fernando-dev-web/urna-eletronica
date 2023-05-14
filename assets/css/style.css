@@ -1,5 +1,13 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+    height: 100vh;
+}
 .urna{
-    width: 70%;
+    width: 950px;
     background-color: #dbd5c9;
 }
 
@@ -7,6 +15,14 @@
     width: 500px;
     height: 320px;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1)
+}
+
+.n1,
+.n2{
+    width: 50px !important;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid black;
 }
 .teclado{
     min-width: 350px;
@@ -24,6 +40,7 @@ button{
     cursor: pointer;
     box-shadow: 3px 3px 0px #555;
     background-color: #000;
+    
 }
 
 .branco button{
@@ -38,15 +55,15 @@ button{
     font-size: 0.9rem !important;
     padding: 2px;
     color: #000;
-    background-color:#df8e32;;
+    background-color:#f09046;;
 
 }
 .confirma button{
     width: 90px;
-    height: 60px;
+    height: 50px;
     font-size: 1rem !important;
     padding: 2px;
     color: #000;
-    background-color: #309635;
+    background-color: #48c079;
 
 }
