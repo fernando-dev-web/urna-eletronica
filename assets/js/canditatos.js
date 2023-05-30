@@ -1,0 +1,3 @@
+let veriador = [
+    {nome: 'hhh'}
+]

@@ -15,7 +15,7 @@
     <div class="main">
     <div class="urna container d-flex p-4 justify-content-center align-items">
         <div class="tela  border border-2 border-secondary">
-            <div class="telaGeral d-flex">
+            <div class="telaGeral d-flex justify-content-between">
                 <div class="row">
                     <div class=" Vpara">
                         <p>SEU VOTO PARA</p>
@@ -27,7 +27,7 @@
                         <div class=" numeroIdentificador text-center pisca">1</div>
                         <div class=" numeroIdentificador text-center ">2</div>
                     </div>
-                    <div class="infAdd">
+                    <div class="dadosPessoa">
                         <p>NOME: Fulano de tal</p>
                         <p>PARTIDO: QQQ</p>
                         <p>VICE-PREFEITO:  <span></span> </p>
@@ -39,8 +39,9 @@
 
                 </div>
             </div>
-            <hr>
+            
             <div class="footer ">
+                <hr>
                 <p>
                     Aperte tecla: <br>
                     CONFIRMA para CONFIRMAR  o voto <br>
@@ -51,27 +52,27 @@
         </div>
         <div class="teclado p-2 d-flex gap-3 ms-5 ">
             <div class="row d-flex gap-3">
-                <div class="col "><button>1</button></div>
-                <div class="col "><button>2</button></div>
-                <div class="col "><button>3</button></div>
+                <div class="col "><button onclick="tecladoNum(1)">1</button></div>
+                <div class="col "><button onclick="tecladoNum(2)">2</button></div>
+                <div class="col "><button onclick="tecladoNum(3)">3</button></div>
             </div>
             <div class="row d-flex gap-3">
-                <div class="col "><button>4</button></div>
-                <div class="col "><button>5</button></div>
-                <div class="col "><button>6</button></div>
+                <div class="col "><button onclick="tecladoNum(4)">4</button></div>
+                <div class="col "><button onclick="tecladoNum(5)">5</button></div>
+                <div class="col "><button onclick="tecladoNum(6)">6</button></div>
             </div>
             <div class="row d-flex gap-3">
-                <div class="col "><button>7</button></div>
-                <div class="col "><button>8</button></div>
-                <div class="col "><button>9</button></div>
+                <div class="col "><button onclick="tecladoNum(7)">7</button></div>
+                <div class="col "><button onclick="tecladoNum(8)">8</button></div>
+                <div class="col "><button onclick="tecladoNum(9)">9</button></div>
             </div>
             <div class="row  d-flex gap-3 ">
-                <div class="col d-flex justify-content-center"><button>0</button></div>
+                <div class="col d-flex justify-content-center"><button onclick="tecladoNum(0)">0</button></div>
             </div>
             <div class="row d-flex align-items-end">
-                <div class="col branco"><button>BRANCO</button></div>
-                <div class="col corrige"><button>CORRIGE</button></div>
-                <div class="col confirma"><button>CONFIRMA</button></div>
+                <div class="col branco"><button onclick="tecladoNum()">BRANCO</button></div>
+                <div class="col corrige"><button onclick="tecladoNum()">CORRIGE</button></div>
+                <div class="col confirma"><button onclick="tecladoNum()">CONFIRMA</button></div>
             </div>
         </div>
     </div>
@@ -82,5 +83,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/canditatos.js"></script>
 </body>
 </html>
